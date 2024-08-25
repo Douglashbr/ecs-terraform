@@ -1,0 +1,1 @@
+terraform -chdir=$HOME/ecs-terraform/ecs plan -var "image_tag=$IMAGE_TAG"
